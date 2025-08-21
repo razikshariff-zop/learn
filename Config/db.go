@@ -14,8 +14,8 @@ var DB *gorm.DB
 var Api=os.Getenv("API_KEY")
 func ConnectDB() {
 	// Load from env vars
-	username := "sql12794681"
-	rawPassword := "eYCvw4Gty2"
+	username := ""
+	rawPassword := ""
 	password := url.QueryEscape(rawPassword)
 	host := "sql12.freesqldatabase.com"
 	port := "3306"
